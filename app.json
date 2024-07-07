@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "timbu-app",
+    "slug": "timbu-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fave2009.timbuapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "fonts": {
+        "Poppins": {
+          "uri": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap",
+          "display": "swap"
+        }
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b79b5388-1620-4a3e-9bb0-d5e63b721f0c"
+      }
+    },
+    "owner": "fave2009"
+  }
+}
