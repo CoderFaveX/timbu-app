@@ -4,7 +4,7 @@ import { ProductContext } from './context/ProductContext';
 import { AntDesign } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
 
-const Main = () => {
+const Index = () => {
   const { products, loading, error } = useContext(ProductContext);
   const [selectedProductIndex, setSelectedProductIndex] = useState(null);
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -300,4 +300,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Main;
+export default Index;

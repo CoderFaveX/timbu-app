@@ -4,7 +4,7 @@
     "slug": "timbu-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/splash.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -25,7 +25,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png",
+      "favicon": "./assets/images/splash.png",
       "fonts": {
         "Poppins": {
           "uri": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap",
